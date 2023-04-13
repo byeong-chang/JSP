@@ -1,0 +1,9 @@
+@charset "EUC-KR";
+
+fieldset{
+	width:330px;
+}
+select{
+	width: 60px;
+	height:20.5px;
+}

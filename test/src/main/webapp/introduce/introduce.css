@@ -1,0 +1,36 @@
+@charset "EUC-KR";
+h1 {
+    text-align: center;
+}
+
+/* 테이블 가운데 정렬 */
+table {
+    margin: 0 auto;
+    border-collapse: collapse; /* 테두리를 하나로 합침 */
+    border-top: 1px solid black; /* 가장 위쪽 테두리 */
+    border-bottom: 1px solid black; /* 가장 아래쪽 테두리 */
+}
+
+/* 셀 높이 조절 */
+td, th {
+    height: 30px;
+}
+
+table td,
+table th {
+    border: 1px black dotted;
+}
+
+table th:first-child,
+table td:first-child {
+    border-left: 0;
+}
+
+table th:last-child,
+table td:last-child {
+    border-right: 0;
+}
+
+.highlight {
+    background-color: rgb(229, 229, 229);
+}
