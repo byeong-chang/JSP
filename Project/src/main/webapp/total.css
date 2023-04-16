@@ -1,0 +1,139 @@
+/* 전체 페이지 스타일 */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* header 스타일 */
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+header h1 {
+  margin: 0;
+}
+
+h3{
+  text-align: center;
+  padding: 20px;
+}
+/* form 버튼 스타일 */
+
+form input[type="submit"] {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* table 스타일 */
+
+table {
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* main section 스타일 */
+
+main {
+  padding: 20px;
+}
+
+/* section 스타일 */
+
+section {
+  margin: 20px 0;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* footer 스타일 */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Bootstrap 스타일 */
+
+/* form 버튼 스타일 */
+input[type="submit"] {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* table 스타일 */
+table {
+  margin: 20px auto;
+}
+
+table td, table th {
+  padding: 8px;
+  text-align: center;
+}
+
+table thead {
+  background-color: #f2f2f2;
+}
+
+/* main section 스타일 */
+main {
+  padding: 50px 0;
+}
+
+/* section 스타일 */
+section {
+  text-align : center;
+  padding: 30px;
+}
+
+section h2 {
+  margin-bottom: 30px;
+  font-size: 36px;
+}
+
+section p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* footer 스타일 */
+footer {
+  text-align : center;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
